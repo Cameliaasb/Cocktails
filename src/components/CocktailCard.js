@@ -5,7 +5,7 @@ const transformItems = (item) => {
 };
 
 // ALGOLIA HITS = Results
-function CocktailCard({ hit }) {
+const CocktailCard = ({ hit }) => {
   return (
     <div className="cocktail-card">
       <div className="title-block yellow-bg">{hit.name.toUpperCase()}</div>

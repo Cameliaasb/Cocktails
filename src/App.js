@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cocktails from './pages/Cocktails';
+import './style/index.scss';
 
 const App = () => {
   return (
@@ -12,7 +13,6 @@ const App = () => {
           {/* <Route path="/mybar" element={<Bar />}> </Route> */}
         </Routes>
       </BrowserRouter>
-
     </div>
   );
 };
