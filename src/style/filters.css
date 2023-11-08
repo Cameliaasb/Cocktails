@@ -1,0 +1,45 @@
+.filters {
+  background-color:       #3EA66B;
+  padding:                44px;
+  display:                flex;
+  flex-direction:         column;
+  gap:                    32px;
+}
+
+
+/* ------------ overriding algolia search default ------------------ */
+
+/* for searchbar */
+.ais-RefinementList-count {
+  display:              none;
+}
+
+input[type="checkbox" i], .ais-SearchBox-submit, .ais-SearchBox-reset {
+  display:              none;
+}
+
+
+/* for blocks to choose filter */
+.ais-RefinementList-list {
+  display:               flex;
+  flex-wrap:             wrap;
+  justify-content:       space-between;
+  gap:                   16px;
+}
+
+.ais-RefinementList-item {
+  padding:              1rem 0rem;
+}
+
+.ais-RefinementList-label {
+  background-color:     #FFFBE0;
+  padding:              1rem;
+  border:               1px solid black;
+  cursor:               pointer;
+}
+
+.ais-RefinementList-item--selected {
+  font-weight: bolder;
+}
+
+/* ---------------------------------------------------------------- */

@@ -1,0 +1,31 @@
+.search-bar {
+  display:                flex;
+  gap:                    8px;
+}
+
+
+.search-prompt {
+  font-size:            1.4rem;
+  font-weight:          bold;
+  color:              #ec2f16;
+  border-radius:        8px;
+  text-align:           center;
+  -webkit-text-stroke:  0.3px black;
+  width:                fit-content;
+}
+
+
+/* ------------ overriding algolia search default ------------------ */
+.ais-SearchBox {
+  flex-grow:            1;
+}
+
+.ais-SearchBox-input {
+  border-radius:        8px;
+  font-size:            1.4rem;
+  font-weight:          bold;
+  border:               1px solid  black;
+  padding:              8px;
+  width:                100%;
+}
+/* ---------------------------------------------------------------- */

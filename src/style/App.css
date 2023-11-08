@@ -1,0 +1,41 @@
+.container {
+  text-align:         center;
+  margin:             44px;
+}
+
+
+ol, .ais-RefinementList-list {
+  list-style-type:    none;
+  padding:            0;
+}
+
+/* Results grid  */
+.ais-Hits-list {
+  display:            flex;
+  flex-wrap:          wrap;
+  align-content:      flex-start;
+}
+
+
+
+
+/* For small screens (up to 767px), 2 cards per line */
+@media (max-width: 767px) {
+  .ais-Hits-item {
+    flex-basis:       calc(50% - 16px);
+  }
+}
+
+/* For medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .ais-Hits-item {
+    flex-basis:       calc(33.333% - 16px);
+  }
+}
+
+/* For large screens (992px and above) */
+@media (min-width: 992px) {
+  .ais-Hits-item {
+    flex-basis:       calc(25% - 16px);
+  }
+}
