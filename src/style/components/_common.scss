@@ -1,0 +1,17 @@
+.container {
+  text-align:         center;
+  margin:             44px;
+}
+
+
+ol, .ais-RefinementList-list {
+  list-style-type:    none;
+  padding:            0;
+}
+
+/* Results grid  */
+.ais-Hits-list {
+  display:            flex;
+  flex-wrap:          wrap;
+  align-content:      flex-start;
+}
